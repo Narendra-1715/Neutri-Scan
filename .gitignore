@@ -1,0 +1,21 @@
+﻿# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Secrets and credentials
+.streamlit/secrets.toml
+*.env
+.env*
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
